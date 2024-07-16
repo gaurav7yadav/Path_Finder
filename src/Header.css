@@ -1,0 +1,28 @@
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: yellow;
+  text-align: center;
+  padding: 10px 0;
+  text-shadow: 1px 1px 1px #c6fc23,
+               1px 2px 1px #48610e,
+               1px 3px 1px #4c610e,
+               1px 4px 1px #182306;
+  z-index: 1000;
+}
+
+.header {
+  font-family: 'Poppins', sans-serif;
+  background-position: center;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  padding-top: 60px;
+}

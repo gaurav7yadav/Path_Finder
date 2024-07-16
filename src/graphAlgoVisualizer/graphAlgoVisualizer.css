@@ -1,0 +1,46 @@
+
+.grid {
+  margin-top: 10px;
+  background-color:white;
+}
+
+.time {
+  
+  position: absolute;
+  font-size: large;
+  right: 10%;
+}
+
+.pathCost {
+  position: absolute;
+  font-size: large;
+  /* right: 3%; */
+}
+
+.pathLength {
+  position: absolute;
+  font-size: large;
+  /* right: 5%; */
+}
+
+.checkBox {
+  color: white;
+  /* margin-left: 5px; */
+}
+
+.description {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(17, 239, 199);
+}
+
+.labels {
+  align-items: center;
+  text-align: center;
+  color: white;
+  /* text-decoration: double; */
+}
+
+  
+

@@ -1,0 +1,32 @@
+.footer {
+  background-color: rgba(2, 9, 8, 0.866);
+  color: yellow; 
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.footer a {
+  color: yellow; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: lightyellow; 
+}
+
+.footer p {
+  margin: 0;
+  color: yellow; 
+  font-size: 1.3rem;
+
+}

@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.main-content {
+  padding-top: 60px; /* Adjust this value based on the height of your fixed header */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.input-field {
+  margin: 8px;
+  padding: 8px;
+  width: calc(100% - 32px);
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.button {
+  margin: 8px;
+  padding: 8px 16px;
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: gold;
+}
+
+.result {
+  margin: 16px;
+  padding: 16px;
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
+}
+
+.vis-react {
+  border: 0.25em solid #343a40;
+  height: 50vh;
+}
+
+.mainDiv {
+  height: 50vh;
+}
+
+.vis-network {
+  height: 50vh;
+}
+
+.vis-react > canvas {
+  height: 50vh;
+}
