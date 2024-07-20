@@ -25,7 +25,7 @@ const cards = [
 
 const Card = ({ image, description, link }) => {
   return (
-    <div className="card" onClick={() => window.open(link, '_blank')}>
+    <div className="card" onClick={() => window.open(link)}>
       <img src={image} alt="card" className="card-img" />
       <p>{description}</p>
     </div>

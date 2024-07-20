@@ -247,8 +247,8 @@ class FormInput extends React.Component {
             <input type="text" name="value4" placeholder="Task 4" onChange={this.handleChange} className="m-2 input-field" />
             <input type="text" name="value4prereq" placeholder="Task4 - Prerequisite" onChange={this.handleChange} className="m-2 input-field" />
           </div>
-          <input type="button" value="Add More" onClick={this.generateFormInput} className="mt-2 ml-2 mr-1 button" />
-          <input type="submit" value="Visualize" className="mt-2 mr-2 ml-1 button" />
+          <input type="button" value="Add More" onClick={this.generateFormInput} className="mt-2 ml-2 mr-1 button" style={{ color: 'black' }}/>
+          <input type="submit" value="Visualize" className="mt-2 mr-2 ml-1 button" style={{ color: 'black' }}/>
 
         </form>
         <div className="result" hidden={false} ref={(el) => { this.messagesEnd = el; }} >

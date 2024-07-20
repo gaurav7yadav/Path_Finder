@@ -91,11 +91,11 @@ class classNavbar extends Component {
             </Button>
             <label className="mx-3">
               <Checkbox checked={addWeights} onChange={handleCheckboxChange} />
-              <span className="checkBox" style={{color:'white'}}>Switch to Weights</span>
+              <span className="checkBox">Switch to Weights</span>
             </label>
-            <label className="checkBox mx-3" style={{color:'white'}}>Path Length : {pathLength}</label>
-            <label className="checkBox mx-3" style={{color:'white'}}>Path Cost : {pathCost}</label>
-            <label className="checkBox mx-3" style={{color:'white'}}>Time Complexity : {timeComplexity}</label>
+            <label className="checkBox mx-3">Path Length : {pathLength}</label>
+            <label className="checkBox mx-3">Path Cost : {pathCost}</label>
+            <label className="checkBox mx-3">Time Complexity : {timeComplexity}</label>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
